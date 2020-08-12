@@ -1,0 +1,16 @@
+{
+  "short_name": "Time Stretch",
+  "name": "Time Stretch",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "connect-src 'self' https://api-eu-vs-virus.herokuapp.com http://localhost:3000;font-src 'self' https://fonts.gstatic.com/ ; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.google.com; default-src 'self' 'sha256-23NsZMnrLRSEoxRO9t2ZEad22BnNLGMTiyllOm+KLZ8='",
+  "permissions": ["notifications"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+

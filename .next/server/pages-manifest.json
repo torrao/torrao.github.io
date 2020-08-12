@@ -1,1 +1,7 @@
-{"/_app":"static/tws-3DwmpzRzc_SlnOclr/pages/_app.js","/_document":"static/tws-3DwmpzRzc_SlnOclr/pages/_document.js","/_error":"static/tws-3DwmpzRzc_SlnOclr/pages/_error.js","/about":"static/tws-3DwmpzRzc_SlnOclr/pages/about.html","/index":"static/tws-3DwmpzRzc_SlnOclr/pages/index.html","/":"static/tws-3DwmpzRzc_SlnOclr/pages/index.html","/404":"static/tws-3DwmpzRzc_SlnOclr/pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/about": "pages/about.js"
+}
